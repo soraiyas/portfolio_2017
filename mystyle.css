@@ -24,7 +24,7 @@ body {
 
 
 .headers h1 {
-  color: #D46363;
+  color: white;
   font-size: 40px;
   line-height: 60px;
   text-align: center;
@@ -101,7 +101,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 #navigation a {
-	color: #91DBA6;
+	color: white;
 	padding: 0.25em;
 	text-align: right;
 }
