@@ -204,20 +204,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 
-.section4 { 
-  padding: 30px;
-
-}
-
- .section {
-    top: 0;
-    color: white;
-    background-color: white;
-    padding: 70px 0;
-    text-align: center;
-    }
-
-.bio-pic {
+.port-pic {
   width: 100%;
   /*height: 300px;*/
   display: inline-block;
@@ -225,42 +212,49 @@ font-family: 'Raleway', sans-serif;
   background-size: cover;
   position: relative;
   text-align: center;
+ overflow: scroll;
 }
 
-.bio-pic img {
+.port-pic img {
   display: inline-block;
 }
 
 
-.bio-pic:hover {
-  /*background-color: #39CCCC;*/
-  /*opacity: 0.3;*/
+.port-pic :hover img{
+	background-color: #E96D6E;
 }
 
-
-.bio-pic .linkedin {
-  /*display: none;*/
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  display: block;
-  margin-top: 20px;
-}
-
-.bio-pic:hover .linkedin {
-  color: #383838;
-  font-family: 'Lato', sans-serif;
- /* opacity: 1;*/
-  
-}
-
-.bio-pic:hover img {
+.port-pic:hover img {
   opacity: 0.3;
 }
+
+.port-pic .website {
+        opacity: 0;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    	top: 50%;
+        padding: 2px 10px;
+        color: #FFF;
+        text-decoration: none;
+        text-align: center;
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        transition: opacity 500ms;
+        font-size: 38px;
+
+        
+    }
+.port-pic:hover .website {
+        opacity: 0.8;
+    }
 
 .col-lg-4 col-md-4 col-sm-4 col-xs-12 {
 	overflow: scroll;
 }
+
 
 .icanhelp {
 	text-align: center;
@@ -288,8 +282,23 @@ a {
     display: block;
     background-color: #E96D6E;
     color: #FFF;
-	height: 100px;
+	height: 150px;
     margin-top: -50px;
+    text-align: center;
+    list-style: none;
+    padding: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.contact-list {
+	display: inline-flex;
+    list-style: none;
+    padding: 0em;
+}
+
+li.contact-items {
+	padding: 1em;
 }
 /*.portfolio-list {
 	display: inline-flex;
