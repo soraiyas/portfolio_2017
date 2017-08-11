@@ -36,8 +36,6 @@ body {
 font-family: 'Raleway', sans-serif;
 
 
-
-
 } 
 
 /*.highlight {
@@ -118,7 +116,7 @@ font-family: 'Raleway', sans-serif;
 
 .about h1 {
 	text-align: center;
-	color: #D46363;
+	color: #91DBA6;
 	font-size: 40px;
 	font-family: 'Rubik', sans-serif;
 
@@ -137,15 +135,192 @@ font-family: 'Raleway', sans-serif;
 	padding-top: 20px;
 	font-size: 20px;
 }
-
+/*
 .services h1 {
 	text-align: center;
-	color: #D46363;
+	color: #91DBA6;
 	padding-top: 20px;
 	font-size: 40px;
 	font-family: 'Rubik', sans-serif;
 
+}*/
+
+.expertise-containter {
+	padding: 3em;
+
 }
+
+.col-4 {
+	text-align: center;
+}
+
+.row {
+	margin: 20px 0;
+    position: relative;
+    display: block;
+}
+
+.red-line {
+	display: inline-block;
+    width: 30px;
+    height: 2px;
+    margin: 10px 0 20px;
+    background-color: #e9204f;
+}
+
+.services-col .col-4 {
+	padding: 0;
+    padding-right: 15px;
+}
+
+.col-4 .services-col h4 {
+	text-align: left;
+}
+
+.services-list {
+	display: block;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+
+}
+
+.services-item {
+	width: 300px;
+    background-color: rgba(210, 205, 205, 0.6);
+    padding: 25px;
+    margin: 25px;
+}
+
+.services-table {
+	text-align: center;
+}
+.services-table .row {
+	display: inline-flex;
+}
+
+.services-item:hover { 
+    background-color: #E96D6E;
+}
+
+
+.section4 { 
+  padding: 30px;
+
+}
+
+ .section {
+    top: 0;
+    color: white;
+    background-color: white;
+    padding: 70px 0;
+    text-align: center;
+    }
+
+.bio-pic {
+  width: 100%;
+  /*height: 300px;*/
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.bio-pic img {
+  display: inline-block;
+}
+
+
+.bio-pic:hover {
+  /*background-color: #39CCCC;*/
+  /*opacity: 0.3;*/
+}
+
+
+.bio-pic .linkedin {
+  /*display: none;*/
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.bio-pic:hover .linkedin {
+  color: #383838;
+  font-family: 'Lato', sans-serif;
+ /* opacity: 1;*/
+  
+}
+
+.bio-pic:hover img {
+  opacity: 0.3;
+}
+
+.col-lg-4 col-md-4 col-sm-4 col-xs-12 {
+	overflow: scroll;
+}
+
+.icanhelp {
+	text-align: center;
+	margin-bottom: 8em;
+    padding: 1em;
+
+}
+.btn-contact {
+	background-color: #E96D6E; 
+    border: none;
+    color: #FFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+a {
+	color: #FFF
+}
+
+.footer { 
+    display: block;
+    background-color: #E96D6E;
+    color: #FFF;
+	height: 100px;
+    margin-top: -50px;
+}
+/*.portfolio-list {
+	display: inline-flex;
+    list-style-type: none;
+
+}
+
+.portfolio-list li {
+	padding: 1em;
+}
+
+
+#portfolio-img:hover {
+	background-color: #E96D6E;
+
+}
+*/
+
+
+/*.portfolio-item-1 {
+	background-image: url(images/makeamovecoaching.png);
+}
+
+.portfolio-item-2 {
+	background-image: url(images/tgindustries.png);
+}
+
+.portfolio-item-2 {
+	background-image: url(images/popartmcgill.png);
+}
+*/
 
 /*.imagecontainer {
 	width:100%;
