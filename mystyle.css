@@ -2,26 +2,56 @@ body {
   	margin: 0;
  	padding: 0;
 	background-color: #FFF;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 }
 
-#cover {
-  Background: url('images/building.png');
+.homeslide {
+	background-color: #D2CDCD;
+	background: url(images/citycity.gif);
+	background-repeat:no-repeat;
+  	background-size: cover;
+  	background-position:center bottom;
+  	background-color: #D2CDCD;
+  	height: -webkit-fill-available;
+
+}
+
+.headers {
+	background-color: #D2CDCD;
+	padding: 1.5em;
+}
+
+
+.headers h1 {
+  color: #D46363;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+ font-family: 'Rancho', cursive;
+
+
+
+
+} 
+
+/*.highlight {
+	color: rgba(255, 255, 255, 0.6);
+}*/
+
+/*.city {
+  background-image: url(images/building.png);
   background-repeat:no-repeat;
   background-size: cover;
   background-position:center;
-  /*height: 900px;
-  position: relative;
-  top: -55px;
-  width: 100%;
-  background-size: cover;
-  background-attachment: fixed;*/
   background-color: #D2CDCD;
-  height: -webkit-fill-available;
- 
-}
+  height: auto;
+}*/
 
+
+/*
 .heading {
   box-sizing: border-box;
   margin: 0 auto;
@@ -29,21 +59,20 @@ body {
   text-align: center;
   padding-top: 300px;
   width: 70%;
-}
+}*/
 
-.btn {
+/*.btn {
   background-color: #91DBA6;
   color: #FFF;
   font-size: 26px;
   padding: 14px;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 20px;*/
 /*  background-image: -webkit-linear-gradient(#FFD194, #BC1324);*/
-}
 
-h1 {
-/*  background-color: #FFF;
-*/color: #FFF;
+
+/*h1 {
+  color: #FFF;
   font-size: 35px;
   line-height: 60px;
   padding: 20px 10px;
@@ -51,19 +80,34 @@ h1 {
 }
 
 .heading h1 {
-	background-color: rgba(171, 175, 179, 0.95);
-  }
+	background-color: rgba(145, 219, 166, 0.4);
+  }*/
 
  #navigation {
- 	font-size: 30px;
+ 	font-size: 20px;
  	display: block;
- 	padding: 60px;
- 	text-align: center;
+ 	text-align: right;
+ 	background-color: rgba(210, 205, 205, 0.5);
+ 	padding: 1em;
+
  }
 
-#navigation a {
-	color: #FFF;
+#navigation img {
+	float: left;
+	border-radius: 100%;
+	display: block;
+    height: 40px;
+
 }
+
+#navigation a {
+	color: #91DBA6;
+	padding: 0.25em;
+	text-align: right;
+}
+
+
+
 
 .about {
 	padding-left: 15em;
@@ -72,8 +116,10 @@ h1 {
 
 .about h1 {
 	text-align: center;
-	color: #91DBA6;
+	color: #D46363;
 	font-size: 40px;
+	font-family: 'Rubik', sans-serif;
+
 }
 
 .about img {
@@ -92,9 +138,11 @@ h1 {
 
 .services h1 {
 	text-align: center;
-	color: #91DBA6;
+	color: #D46363;
 	padding-top: 20px;
 	font-size: 40px;
+	font-family: 'Rubik', sans-serif;
+
 }
 
 /*.imagecontainer {
