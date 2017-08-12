@@ -271,7 +271,7 @@ font-family: 'Raleway', sans-serif;
 
 }
 .btn-contact {
-	background-color: #E96D6E; 
+	background-color: #D2CDCD; 
     border: none;
     color: #FFF;
     padding: 15px 32px;
@@ -284,6 +284,10 @@ font-family: 'Raleway', sans-serif;
 
 a {
 	color: #FFF
+}
+
+.btn-contact:hover {
+	background-color: #E96D6E;
 }
 
 .footer { 
