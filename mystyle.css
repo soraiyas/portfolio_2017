@@ -155,11 +155,11 @@ font-family: 'Raleway', sans-serif;
 
 li.skills-items {
 	padding: 3em;
-	border: 2px solid #E96D6E;
-	border-radius: 15px;
-	background-color: rgba(210, 205, 205, 0.9);
 	margin: 10px;
-	color: #FFF;
+}
+
+li.skills-items h3 {
+	color: black;
 }
 
 .skills-items img {
@@ -168,8 +168,22 @@ li.skills-items {
 	margin-bottom: 1em;
 }
 
+li.skills-items p {
+	visibility: hidden;
+}
+
 ul li:hover {
-	background-color: #E96D6E;
+	background-color: #D2CDCD;
+	border-radius: 15px;
+}
+
+ul li:hover p {
+	visibility: visible;
+	color: #FFF;
+}
+
+ul li:hover h3 {
+	color: #FFF;
 }
 /*
 .services h1 {
@@ -325,7 +339,6 @@ ul li:hover {
     display: inline-block;
     font-size: 16px;
     border-radius: 15px;
-    border: 2px solid #E96D6E;
 }
 
 a {
