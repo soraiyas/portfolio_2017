@@ -199,6 +199,14 @@ font-family: 'Raleway', sans-serif;
 	display: inline-flex;
 }
 
+@media (max-width: 768px) {.services-table .row {
+	display: inline-block;
+}
+}
+
+ 
+
+
 .services-item:hover { 
     background-color: #E96D6E;
 }
