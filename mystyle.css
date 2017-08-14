@@ -2,7 +2,7 @@ body {
   	margin: 0;
  	padding: 0;
 	background-color: #FFF;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -10,33 +10,41 @@ body {
 }
 
 .homeslide {
-	background-color: #D2CDCD;
-	background: url(images/city3.gif);
+	background: url(images/city6.gif);
 	background-repeat:no-repeat;
   	background-size: cover;
   	background-position:center bottom;
-  	background-color: #D2CDCD;
   	height: -webkit-fill-available;
-
+  	text-align: center;
 }
 
 .headers {
-	background-color: #D2CDCD;
-	padding: 1.5em;
+	padding: 3em 14em 5em 14em;
+    background-color: #7BDCD5;
+	text-align: center;
+	color: #FFF;
 }
 
 
 .headers h1 {
-  color: white;
-  font-size: 2em;
+  color: #FFF;
+  font-size: 4em;
   line-height: 60px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
-font-family: 'Raleway', sans-serif;
+ font-family: 'Roboto', sans-serif;
 
 
 } 
+
+.headers h2 {
+	font-size: 25px;
+ 	font-family: 'Raleway', sans-serif;
+ 	padding-left: 5em;
+    padding-right: 5em;
+
+}
 
 /*.highlight {
 	color: rgba(255, 255, 255, 0.6);
@@ -88,7 +96,7 @@ font-family: 'Raleway', sans-serif;
  	font-size: 20px;
  	display: block;
  	text-align: right;
- 	background-color: rgba(210, 205, 205, 0.5);
+ 	background-color: rgba(123, 220, 213, 0.8);
  	padding: 1em;
 
  }
@@ -102,21 +110,39 @@ font-family: 'Raleway', sans-serif;
 }
 
 #navigation a {
-	color: #E96D6E;
+	color: #FFF;
 	padding: 0.25em;
 	text-align: right;
 }
 
 
+.intro {
+	color: rgba(212, 99, 99, 1);
+	text-align: center; 
+	padding: 2em;
+}
 
+.intro img {
+	margin: auto;
+	border-radius: 100%;
+	display: block;
+    height: 200px;
+}
 
-.about {
+.intro h2 {
+	padding-right: 15em;
+	padding-left: 15em;
+	font-size: 20px;
+	color: black;
+}
+
+/*about {
 	padding: 2em;
 }
 
 .about h1 {
 	text-align: center;
-	color: #91DBA6;
+	color: #D46363;
 	font-size: 40px;
 	font-family: 'Rubik', sans-serif;
 
@@ -135,7 +161,7 @@ font-family: 'Raleway', sans-serif;
 	padding-top: 20px;
 	font-size: 20px;
 }
-
+*/
 .skills {
 	text-align: center;
 }
@@ -158,8 +184,16 @@ li.skills-items {
 	margin: 10px;
 }
 
-li.skills-items h3 {
+li.skills-items {
 	color: black;
+}
+
+.red-line {
+	display: inline-block;
+    width: 60px;
+    height: 2px;
+    margin: 10px 0 20px;
+    background-color: #7BDCD5;
 }
 
 .skills-items img {
@@ -168,7 +202,7 @@ li.skills-items h3 {
 	margin-bottom: 1em;
 }
 
-li.skills-items p {
+/*li.skills-items p {
 	visibility: hidden;
 }
 
@@ -184,7 +218,30 @@ ul li:hover p {
 
 ul li:hover h3 {
 	color: #FFF;
+}*/
+
+.skills-list-image {
+	text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    padding-top: 20px;
 }
+.skills-list-image:hover {
+	background: #7BDCD5;
+    
+}
+
+.skills-items h3 {
+	color: #D46363;
+}
+
+/*-moz-border-radius: 30px; 
+    border-radius: 30px; 
+
+    background-color: #E96D6E;*/
 /*
 .services h1 {
 	text-align: center;
@@ -286,13 +343,8 @@ ul li:hover h3 {
   display: inline-block;
 }
 
-
-.port-pic :hover img{
-	background-color: #E96D6E;
-}
-
 .port-pic:hover img {
-  opacity: 0.3;
+  opacity: 0.25;
 }
 
 .port-pic .website {
@@ -310,8 +362,8 @@ ul li:hover h3 {
         -moz-transition: opacity 500ms;
         -o-transition: opacity 500ms;
         transition: opacity 500ms;
-        font-size: 38px;
-
+        font-size: 25px;
+        text-transform: uppercase;
         
     }
 .port-pic:hover .website {
@@ -346,13 +398,13 @@ a {
 }
 
 .btn-contact:hover {
-	background-color: #E96D6E;
+	background-color: #D46363;
 }
 
 
 .footer { 
     display: block;
-    background-color: #E96D6E;
+    background-color: #7BDCD5;
     color: #FFF;
 	height: 300px;
     margin-top: -50px;
@@ -360,7 +412,7 @@ a {
     list-style: none;
     padding: 1em;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     background-image: url(images/city.png);
     background-repeat:no-repeat;
   	background-size: cover;
