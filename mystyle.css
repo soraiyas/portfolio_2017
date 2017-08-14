@@ -31,6 +31,10 @@ body {
 	color: #FFF;
 }
 
+@media (max-width: 768px) {.headers {
+    padding: 1em;
+}
+}
 
 .headers h1 {
   color: #FFF;
@@ -50,6 +54,11 @@ body {
  	padding-left: 5em;
     padding-right: 5em;
 
+}
+
+@media (max-width: 768px) {.headers h2 {
+    padding: 0em;
+}
 }
 
 /*.highlight {
@@ -107,6 +116,13 @@ body {
 
  }
 
+ @media (max-width: 340px) {#navigation{
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+}
+}
+
 #navigation img {
 	float: left;
 	border-radius: 100%;
@@ -114,6 +130,12 @@ body {
     height: 40px;
 
 }
+
+@media (max-width: 340px) {#navigation img{
+    visibility: hidden;
+}
+}
+
 
 #navigation a {
 	color: #FFF;
@@ -140,6 +162,11 @@ body {
 	padding-left: 15em;
 	font-size: 20px;
 	color: black;
+}
+
+@media (max-width: 768px) {.intro h2 {
+    padding: 0em;
+}
 }
 
 /*about {
@@ -381,6 +408,11 @@ ul li:hover h3 {
 	overflow: scroll;
 }
 
+@media (max-width: 768px) {.col-sm-4 {
+    width: 100%;
+    padding: 1em
+}
+}
 
 .icanhelp {
 	text-align: center;
@@ -389,7 +421,7 @@ ul li:hover h3 {
 
 }
 .btn-contact {
-	background-color: #D2CDCD; 
+	background-color: #D46363; 
     border: none;
     color: #FFF;
     padding: 15px 32px;
@@ -405,7 +437,7 @@ a {
 }
 
 .btn-contact:hover {
-	background-color: #D46363;
+	background-color: #7BDCD5;
 }
 
 
@@ -427,6 +459,11 @@ a {
   	background-position-y: 50px;
 }
 
+@media (max-width: 430px) {.footer{
+    height: 500px;
+    font-size: 15px;
+}
+}
 
 .contact-list {
 	display: inline-flex;
@@ -436,6 +473,12 @@ a {
 
 li.contact-items {
 	padding: 1em;
+}
+
+
+@media (max-width: 430px) {.contact-list{
+    display: inline-block;
+}
 }
 
 /*.portfolio-list {
