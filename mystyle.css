@@ -271,15 +271,16 @@ li.skills-items {
   list-style: none;
 }
 
-.process-list {
+@media (max-width: 768px) {.process-list {
     display: inline-block;
     list-style: none;
     padding-left: 0px;
 
 }
+}
 
 
-@media (max-width: 768px) { .process-items {
+ .process-items {
   text-align: center;
   color: black;
   padding: 1.5em;
@@ -287,7 +288,6 @@ li.skills-items {
   border-radius: 10px;
   margin: 1em;
 
-}
 }
 
 
