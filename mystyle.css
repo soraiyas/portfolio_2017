@@ -340,6 +340,7 @@ li.skills-items {
 
 .port-pic img {
   display: inline-block;
+  width: 100%;
 }
 
 .port-pic:hover img {
